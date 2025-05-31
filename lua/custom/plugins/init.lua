@@ -20,14 +20,6 @@ return {
     },
   },
   {
-    'rebelot/kanagawa.nvim',
-    lazy = false,
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme 'kanagawa'
-    end,
-  },
-  {
     'max397574/better-escape.nvim',
     config = function()
       require('better_escape').setup()
